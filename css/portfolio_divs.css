@@ -34,30 +34,12 @@ html, body {
 
 h1, h2, h3, h4, a {
     color: #636;
-    font-family: SlimJoe
+    font-family: SlimJoe;
 }
 
 .container {
     height: 100%;
-}
-/**--------- Aligning Divs ---------**/
-.center-h {
-    left: 50%;
-    transform: translate(-50%, 0%);
-     position: absolute;
-}
-
-.center-v {
-    top: 50%;
-    transform: translate(0%, -50%);
-     position: absolute;
-}
-
-.center-c {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    width: 90% !important;
 }
 
 /**-----------------------------------------------------**/
@@ -93,8 +75,6 @@ h1, h2, h3, h4, a {
     text-align: center;
     margin: 0 auto;
     
-    position: absolute;
-    left: 0;
 }
 
 .contents{
@@ -112,7 +92,7 @@ h1, h2, h3, h4, a {
     
         
     position: absolute;
-    left: 100px;
+    left: 7%;
 }
 
 .flex div{
@@ -276,13 +256,24 @@ header {}
 /*    margin-top: 5px;*/
 }
 
+section {
+    font-family: Raleway-Regular;
+/*    width: 1130px;*/
+/*    position: relative;*/
+    padding: 0 !important;
+    margin-top: -50px;
+}
+
 /*---- The divs ----*/
+
+
 /*Images*/
 
 .con_jan,.con_pres{
     width:calc(49% - 4px);
     height: 430px;
     padding:16px;
+    margin: 8px;
     margin-bottom:10px;
     overflow:hidden;
     border-radius:4px;
@@ -291,7 +282,7 @@ header {}
     color:#ffffff;
     cursor:default;
     float:right;
-    margin-left: 10px;
+    margin-left: 0px;
     -webkit-transition:border .1s linear;transition:border .1s linear
 }
 
@@ -342,6 +333,7 @@ header {}
 
 #ihub:hover {
     background-image: url(img/fi.png) ;
+/*    color: transparent*/
 }
 
 /*Laikiana portfolio*/
